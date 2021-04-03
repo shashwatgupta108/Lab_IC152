@@ -1,2 +1,0 @@
-Q2P3:
-Initially when the range is from 0-9 (0 and 9 inclusive) we see that the function k increases rapidly compared to other functions and has values greater than other functions. Function h increases faster compared to function g and f initially but after a period g and f obtain value greater than h as their slope is increasing faster compared to h(x). When we increase the range to 0-20, we notice that f(x) grows the fastest among all the functions and h(x) the slowest.
