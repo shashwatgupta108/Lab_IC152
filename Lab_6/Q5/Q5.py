@@ -7,10 +7,11 @@ d1.drop(columns=2, inplace=True)
 d2.drop(columns=2, inplace=True)
 x1, y1 = d1[0], d1[1]
 x2, y2 = d2[0], d2[1]
+plt.figure(1)
 plt.scatter(x1, y1, c='b', marker='^', label='Class 1')
 plt.scatter(x2, y2, c='r', marker='x', label='Class 2')
 plt.legend()
-plt.show()
+plt.figure(2)
 y1 = [0] * len(y1)
 y2 = [0] * len(y2)
 plt.scatter(x1, y1, c='r', marker='^', label='Class 1')
