@@ -29,10 +29,25 @@ y3 = [5, -1, 0, 1, 2, 2, 4, 2, 1, 2, 1, 2, -4, 4]
 r1 = correl(x1, y1)
 r2 = correl(x2, y2)
 r3 = correl(x3, y3)
-print(f"Correlation of A: {r1}")
-print(f"Correlation of B: {r2}")
-print(f"Correlation of C: {r3}")
 
+print(f"Correlation of A: {r1}")
+if r1 > 0:
+    print("y1 increases with increase in x1")
+else:
+    print("y1 does not always increase with increase in x1")
+
+print(f"Correlation of B: {r2}")
+if r2 > 0:
+    print("y2 increases with increase in x2")
+else:
+    print("y2 does not always increase with increase in x2")
+
+print(f"Correlation of C: {r3}")
+if r3 > 0:
+    print("y3 increases with increase in x3")
+else:
+    print("y3 does not always increase with increase in x3")
+ 
 fig = plt.figure()
 plt1 = fig.add_subplot(131)
 plt2 = fig.add_subplot(132)
